@@ -274,7 +274,7 @@ const Chat = (props: ChatProps, ref: any) => {
                 <FiSend className="size-4" />
               </IconButton>
             </Tooltip>
-            <Tooltip content={'Clear History'}>
+            {/* <Tooltip content={'Clear History'}>
               <IconButton
                 variant="soft"
                 color="gray"
@@ -285,7 +285,7 @@ const Chat = (props: ChatProps, ref: any) => {
               >
                 <AiOutlineClear className="size-4" />
               </IconButton>
-            </Tooltip>
+            </Tooltip> */}
             <Tooltip content={'Toggle Sidebar'}>
               <IconButton
                 variant="soft"
