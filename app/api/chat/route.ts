@@ -95,9 +95,9 @@ const getOpenAIStream = async (
   if (res.status !== 200) {
     const statusText = res.statusText
     const responseBody = await res.text()
-    console.error(`OpenAI API response error: ${responseBody}`)
+    console.error(`Response error: ${responseBody}`)
     throw new Error(
-      `The OpenAI API has encountered an error with a status code of ${res.status} ${statusText}: ${responseBody}`
+      `The API has encountered an error with a status code of ${res.status} ${statusText}: ${responseBody}`
     )
   }
 

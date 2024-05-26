@@ -207,7 +207,7 @@ const Chat = (props: ChatProps, ref: any) => {
 
   return (
     <Flex direction="column" height="100%" className="relative" gap="3">
-      <Flex
+      {/* <Flex
         justify="between"
         align="center"
         py="3"
@@ -215,7 +215,7 @@ const Chat = (props: ChatProps, ref: any) => {
         style={{ backgroundColor: 'var(--gray-a2)' }}
       >
         <Heading size="4">{currentChatRef?.current?.persona?.name || 'None'}</Heading>
-      </Flex>
+      </Flex> */}
       <ScrollArea
         className="flex-1 px-4"
         type="auto"

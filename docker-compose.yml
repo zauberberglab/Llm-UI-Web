@@ -8,6 +8,7 @@ services:
     environment:
       - OPENAI_API_BASE_URL=
       - OPENAI_API_KEY=
+      - OPENAI_MODEL=
       - AZURE_OPENAI_API_BASE_URL=
       - AZURE_OPENAI_API_KEY=
       - AZURE_OPENAI_DEPLOYMENT=
